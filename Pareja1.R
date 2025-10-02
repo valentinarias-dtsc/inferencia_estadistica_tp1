@@ -22,7 +22,7 @@ vinos_reducido <- vinos[c("quality", "volatile.acidity", "chlorides",
 
 
 #----------------------------------------------------------------------------------------
-#Implementación de Análisis generado en el Libro complementario
+#Implementación de Análisi generado en el Libro complementario
 
 library(leaps)
 modelo1 <- regsubsets(quality~ ., vinos, nvmax = 11)
